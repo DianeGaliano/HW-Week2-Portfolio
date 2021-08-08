@@ -30,6 +30,7 @@ nav {
     color: #13293d;
     padding: 10px;
     text-decoration: none;
+    float: inline-start;
     
   }
 
@@ -44,3 +45,35 @@ nav {
      color: white;
      text-decoration: none;
  }
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: #232425;
+}
+
+.Me {
+   
+    display: flex;
+    position: absolute;
+    max-height: 400px;
+    float: right;
+    margin-right: 50px;
+
+}
+
+main {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+ flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
