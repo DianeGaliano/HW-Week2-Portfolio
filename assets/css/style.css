@@ -46,34 +46,44 @@ nav {
      text-decoration: none;
  }
 
-h2 {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 25px;
-    color: #232425;
-}
 
 .Me {
-   
-    display: flex;
-    position: absolute;
+    flex: 1 0 0;
+    vertical-align: baseline;
     max-height: 400px;
     float: right;
     margin-right: 50px;
+    border-radius: 10px;
+    float: left;
 
 }
 
 main {
+    display: block;
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 500px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+section {
+    display: block;
+    background-color: rgba(0, 128, 128, 0.548);
+
+}
 .card {
- flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
+ display: inline-block;
+ padding: 10px;
+ border-width: 1px;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #232425;
+    padding: 10px;
+    
 }
